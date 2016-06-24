@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+<script type="text/javascript">
+var arreglo = ["bombero", "carro", "estudiante", "edificio", "cometa"];
+var indiceAleatorio = Math.ceil(Math.random() * 10) %
+(arreglo.length);
+
+document.write(indiceAleatorio);
+var palabraAleatoria = arreglo[indiceAleatorio];
+document.write(palabraAleatoria);
+for(var letra = 0; letra < palabraAleatoria.length;
+  letra++) {
+  document.write(palabraAleatoria.charArt(letra) + "<br>");
+for (var i = 0; i < 7; i++) {
+  var letraUsuario = prompt("Introduzca una letra: ","");
+  var posLetras = new Array();
+  var encontrado = false;
+  for(var Letra = 0, j = 0, letra < palabraAleatoria.length; letra++) {
+    var letraMaquina = palabraAleatoria.charArt(letra);
+    if (letraUsuario == letraMaquina) {
+      posLetras[j] = letra;
+      j++
+      encontrada = true;
+    }
+  }
+}
+}
+
+ 
+</script>
+</body>
+</html>

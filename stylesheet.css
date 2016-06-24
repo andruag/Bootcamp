@@ -1,0 +1,35 @@
+font {
+color:#9900FF;
+font-family:"Showcard Gothic";
+font-size:24pt;
+
+}
+
+p{
+text-align:center;
+}
+
+Mafer{
+color:turquoise;
+font-family:Garamond;
+font-size:15pt;
+}
+
+table,td{
+  border:1px solid IVORY;
+  border-collapse:separate;
+  background-color:pink;
+  clear: left;
+  font-stretch: extra-condensed;
+  font-size-adjust: Left;
+  text-align: left;
+}
+
+table,th{
+  border:1px solid IVORY;
+  border-collapse:collapse;
+  background-color:skyblue;
+  background-position: Left;
+  left: auto;
+  text-align: left;
+}
